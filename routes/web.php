@@ -8,8 +8,8 @@ use App\Http\Controllers\VisitController;
 use App\Http\Controllers\TransactionController;
 use App\Http\Controllers\ReportController;
 Route::get('/', function () {
-    return redirect()->route('dashboard');
-});
+    return view('welcome');
+})->name('home');
 Route::get('/dashboard', [DashboardController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
