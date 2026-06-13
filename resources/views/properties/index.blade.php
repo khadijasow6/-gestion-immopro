@@ -44,7 +44,7 @@
             Recherche avancée 🔎
         </h3>
         <p class="text-sm text-gray-500">
-            Filtrez les biens par type, transaction, quartier, prix et surface.
+            
         </p>
     </div>
 
@@ -132,7 +132,7 @@
                             Liste des biens
                         </h3>
                         <p class="text-sm text-gray-500">
-                            Appartements, villas, bureaux, terrains et commerces
+                            
                         </p>
                     </div>
 
